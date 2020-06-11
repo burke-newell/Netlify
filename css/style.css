@@ -1,0 +1,50 @@
+#main {
+  text-align: center;
+  background-color: rgb(35, 35, 35);
+  color: #ffcc00;
+  border-radius: 10px;
+  font-family: monospace;
+  padding-bottom: 20px;
+}
+#title {
+  padding-top: 50px;
+  font-size: 3em;
+}
+#img-div {
+  background-color: white;
+  margin: 30px;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+#image {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  display: block;
+  border-radius: 10px;
+}
+#img-caption {
+  color: black;
+}
+
+ul {
+  display: inline-block;
+  list-style-position: inside;
+  text-align: left;
+  position: relative;
+  right: 20px;
+}
+a:visited {
+  color: red;
+}
+
+@media (max-width: 480px) {
+  #image {
+    width: 100px;
+  }
+}
+@media (min-width: 800px) {
+  #image {
+    width: 300px;
+  }
+}
